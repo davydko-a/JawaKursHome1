@@ -14,12 +14,12 @@ public class Main {
      Dog scruffy = new Dog("Scruffy", "Wurf");
      out.println("Второе задание: " + spoot.getName() + " says " + spoot.getSays() + ", " + scruffy.getName() + " says " + scruffy.getSays());
 
-       /* out.print("Третье задание: Введите целое число:" );
+        out.print("Третье задание: Введите целое число:" );
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
         int b = a%2;
         if (b == 0) out.println("Вы ввели четное число");
-            else out.println("Вы ввели не четное число");*/
+            else out.println("Вы ввели не четное число");
 
         out.print("Четвертое задание: Введите натуральное двузначное число:" );
         Scanner inTwo = new Scanner(System.in);
